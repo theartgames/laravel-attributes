@@ -49,20 +49,19 @@
     ],
     "require": {
         "php": "^8.0.0",
-        "illuminate/console": "^9.0.0 || ^10.0.0",
-        "illuminate/database": "^9.0.0 || ^10.0.0",
-        "illuminate/support": "^9.0.0 || ^10.0.0",
-        "jeremeamia/superclosure": "^2.4.0",
-        "rinvex/laravel-support": "^6.0.0",
-        "spatie/eloquent-sortable": "^4.0.0",
-        "spatie/laravel-sluggable": "^3.3.0",
-        "spatie/laravel-translatable": "^5.2.0"
+        "illuminate/console": "^9.31",
+        "illuminate/database": "^9.31",
+        "illuminate/support": "^9.31",
+        "opis/closure": "^3.6",
+        "rinvex/laravel-support": "^6.1",
+        "spatie/eloquent-sortable": "^4.0",
+        "spatie/laravel-sluggable": "^3.4",
+        "spatie/laravel-translatable": "^6.0"
     },
     "require-dev": {
-        "codedungeon/phpunit-result-printer": "^0.31.0",
-        "illuminate/container": "^9.0.0 || ^10.0.0",
-        "orchestra/testbench": "^7.0.0",
-        "phpunit/phpunit": "^9.5.0"
+        "codedungeon/phpunit-result-printer": "^0.32.0",
+        "illuminate/container": "^9.31",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
@@ -89,6 +88,12 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/laravel-shift/uniquewith-validator.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
