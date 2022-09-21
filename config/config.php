@@ -18,7 +18,7 @@ return [
         'attribute_text_values' => 'attribute_text_values',
         'attribute_varchar_values' => 'attribute_varchar_values',
         'attribute_decimal_values' => 'attribute_decimal_values',
-
+        'attribute_json_values' => 'attribute_json_values',
     ],
 
     // Attributes Models
